@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@layer base {
+  body {
+    font-family: "IBM Plex Sans Variable", sans-serif;
+  }
+}
+
+@layer components {
+  .form-control {
+    @apply min-w-full px-3 py-2 rounded-xl focus:outline-none border-2 border-gray-300/70 focus:border-gray-400/80 transition-colors duration-200;
+  }
+  .btn-primary {
+    @apply px-4 py-2 bg-black text-white font-medium rounded-xl cursor-pointer hover:bg-gray-800 transition-colors duration-200;
+  }
+}
