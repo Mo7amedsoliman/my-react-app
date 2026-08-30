@@ -50,13 +50,14 @@ function App() {
         },
       ],
     },
-    {
-      path: `/login`,
-      element: <Login />,
-    },
+
     {
       path: `/SignUp`,
       element: <SignUp />,
+    },
+    {
+      path: `/login`,
+      element: <Login />,
     },
   ]);
   return (
